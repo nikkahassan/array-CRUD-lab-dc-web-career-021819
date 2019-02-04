@@ -7,23 +7,23 @@ def create_an_array
   end
 
 def add_element_to_end_of_array(array, element)
-  friends.push("Taelor")
+  return friends.push("Taelor")
   end
 
 def add_element_to_start_of_array(array, element)
-  friends.unshift("Sara")
+  return friends.unshift("Sara")
   end
 
 def remove_element_from_end_of_array(array)
-  friends.pop
+  return friends.pop
   end
 
 def remove_element_from_start_of_array(array)
-  friends.shift
+  return friends.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  friends[2]
+  return friends[2]
 end
 
 def retrieve_first_element_from_array(array)
